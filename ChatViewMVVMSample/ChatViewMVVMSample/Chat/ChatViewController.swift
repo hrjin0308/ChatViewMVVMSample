@@ -8,10 +8,13 @@
 import UIKit
 
 class ChatViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-      
-    }
+  
+  // MARK: - UI
+  let collectionView = ChatView()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
     
+  }
+  
 }
