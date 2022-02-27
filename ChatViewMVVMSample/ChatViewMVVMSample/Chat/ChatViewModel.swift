@@ -17,7 +17,6 @@ protocol ChatViewModelType: AnyObject {
 
 class ChatViewModel: ChatViewModelType {
   var chatList: [ChatData] = []
-  var userList: [User] = []
   
   weak var dataDelegate: ChatViewModelDataDelegate?
   
