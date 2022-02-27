@@ -1,52 +1,82 @@
 {
-    "chatList": [
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "안녕안녕"
-            },
-            "senderId": 1
-        },
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "여러줄\n테스트테스트\n2323123"
-            },
-            "senderId": 2
-        },
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "오늘은 김치찌개를 먹었습니당"
-            },
-            "senderId": 3
-        },
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "일이 하나도 안풀리고 속상하고 답답할 때 내가 나를 달랠 힘도 없고 공허하고 외로울 때 세상은 마음처럼 하나도 쉽지 않고 내 앞에 길이 막막해 보일 때 어제와 똑같은 반복되는 일상속에 지친 내가 보일때 하늘을 바라봐 어두워도 괜찮아 빛나는 별을 찾지 않아도 돼 멍하니 바라봐 아무 생각없이 빛나는 별이 되지 않아도 돼."
-            },
-            "senderId": 4
-        },
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "기억나 우리 처음 만난 날 내게 오던 너의 미소가"
-            },
-            "senderId": 5
-        },
-        {
-            "chatId": 1,
-            "type": 1,
-            "content": {
-                "text": "마치 날 알고있던 것처럼 매일 스쳐지나가던 바람처럼"
-            },
-            "senderId": 6
-        }
-    ]
+  "chatList": [
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "안녕안녕"
+      },
+      "sender": {
+        "id": 1,
+        "name": "비둘기",
+        "imgURL": "https://www.seekpng.com/png/detail/443-4434954_png-file-pigeon-icon-png.png"
+      },
+      "time": "2022-02-26T17:03:00Z"
+    },
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "여러줄\n테스트테스트\n2323123"
+      },
+      "sender": {
+        "id": 2,
+        "name": "강아지",
+        "imgURL": "https://p.kindpng.com/picc/s/169-1693411_cats-dogs-cats-and-dogs-heart-shaped-svg.png"
+      },
+      "time": "2022-02-26T17:05:00Z"
+    },
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "오늘은 김치찌개를 먹었습니당"
+      },
+      "sender": {
+        "id": 3,
+        "name": "박쥐",
+        "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_TydsMHY4Y2N6onongxlHGDb0W2ugpWOEvw&usqp=CAU"
+      },
+      "time": "2022-02-26T17:07:00Z"
+    },
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "일이 하나도 안풀리고 속상하고 답답할 때 내가 나를 달랠 힘도 없고 공허하고 외로울 때 세상은 마음처럼 하나도 쉽지 않고 내 앞에 길이 막막해 보일 때 어제와 똑같은 반복되는 일상속에 지친 내가 보일때 하늘을 바라봐 어두워도 괜찮아 빛나는 별을 찾지 않아도 돼 멍하니 바라봐 아무 생각없이 빛나는 별이 되지 않아도 돼."
+      },
+      "sender": {
+        "id": 4,
+        "name": "여우",
+        "imgURL": "https://www.kindpng.com/picc/m/348-3482955_fox-icon-png-transparent-fox-icon-png-png.png"
+      },
+      "time": "2022-02-26T17:13:00Z"
+    },
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "기억나 우리 처음 만난 날 내게 오던 너의 미소가"
+      },
+      "sender": {
+        "id": 5,
+        "name": "세균",
+        "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFctWRjpfPTGFUOiELsu57Yob4JvimSIwmEFrZnpDR6HEibTTPXrtwiJZXCd7_Y5Z_b90&usqp=CAU"
+      },
+      "time": "2022-02-26T17:26:00Z"
+    },
+    {
+      "chatId": 1,
+      "type": 1,
+      "content": {
+        "text": "마치 날 알고있던 것처럼 매일 스쳐지나가던 바람처럼"
+      },
+      "sender": {
+        "id": 6,
+        "name": "고라니",
+        "imgURL": "https://i.pinimg.com/236x/9e/86/8a/9e868aa85da5f1f93b5818a2d52750fb.jpg"
+      },
+      "time": "2022-02-26T17:35:00Z"
+    }
+  ]
 }
