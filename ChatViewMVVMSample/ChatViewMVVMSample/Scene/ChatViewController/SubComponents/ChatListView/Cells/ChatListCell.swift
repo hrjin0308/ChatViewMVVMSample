@@ -1,5 +1,5 @@
 //
-//  ChatCell.swift
+//  ChatListCell.swift
 //  ChatViewMVVMSample
 //
 //  Created by 진혜림 on 2022/02/27.
@@ -8,9 +8,11 @@
 import UIKit
 import Then
 
-class ChatCell: UICollectionViewCell {
+class ChatListCell: UICollectionViewCell {
   let avatarImageView = UIImageView().then {
     $0.contentMode = .scaleAspectFill
+    $0.layer.cornerRadius = 23.0
+    $0.clipsToBounds = true
   }
   let nameLabel = UILabel().then {
     $0.font = UIFont.systemFont(ofSize: 16, weight: .bold)
@@ -39,7 +41,6 @@ class ChatCell: UICollectionViewCell {
       make.width.height.equalTo(46.0)
       make.leading.equalToSuperview().inset(14.0)
       make.top.equalToSuperview().inset(10.0)
-//      make.bottom.greaterThanOrEqualToSuperview().inset(10.0)
     }
     
     nameLabel.snp.makeConstraints { make in
@@ -48,15 +49,11 @@ class ChatCell: UICollectionViewCell {
     }
 
     textView.snp.makeConstraints { make in
+      make.width.lessThanOrEqualTo(200.0)
       make.leading.equalToSuperview().inset(74.0)
       make.top.equalToSuperview().inset(35.0)
-      make.trailing.equalToSuperview().inset(14.0)
+//      make.trailing.greaterThanOrEqualToSuperview().inset(14.0)
       make.bottom.equalToSuperview().inset(10.0)
     }
-  }
-  
-  func setData(_ data: ChatData) {
-    nameLabel.text = data.sender.name
-    textView.text = data.content.text
   }
 }

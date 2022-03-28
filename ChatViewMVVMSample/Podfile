@@ -8,6 +8,7 @@ target 'ChatViewMVVMSample' do
   # Pods for ChatViewMVVMSample
   pod 'SnapKit', '~> 5.0.0'
   pod 'Then'
+  pod 'Kingfisher', '~> 7.0'
 
   target 'ChatViewMVVMSampleTests' do
     inherit! :search_paths

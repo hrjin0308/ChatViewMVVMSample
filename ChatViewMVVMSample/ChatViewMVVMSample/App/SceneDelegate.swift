@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     self.window = UIWindow(windowScene: windowScene)
     let rootViewController = ChatViewController()
-    rootViewController.bind(ChatViewModel())
+    let viewModel = ChatViewModel(model: ChatModel())
+    rootViewController.bind(viewModel)
     let rootNavigationController = UINavigationController(rootViewController: rootViewController)
     
     window?.rootViewController = rootNavigationController
